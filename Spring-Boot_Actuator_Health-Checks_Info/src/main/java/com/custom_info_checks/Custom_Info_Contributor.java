@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.boot.actuate.info.InfoContributor;
 import org.springframework.beans.factory.annotation.Autowired;
 
-//  Custom info Contributor :
+//  Custom info Contributor | Step:3
 
 @Component
 public class Custom_Info_Contributor implements InfoContributor {
