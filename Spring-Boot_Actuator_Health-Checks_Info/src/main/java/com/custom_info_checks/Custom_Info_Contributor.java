@@ -11,6 +11,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 @Component
 public class Custom_Info_Contributor implements InfoContributor {
 
+	//  http://localhost:8585/users_credentials/actuator/info
+
 	  @Autowired
 	  private Environment environment;
 
