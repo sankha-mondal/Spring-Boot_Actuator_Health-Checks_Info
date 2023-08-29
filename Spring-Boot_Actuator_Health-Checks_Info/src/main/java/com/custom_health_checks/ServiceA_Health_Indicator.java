@@ -11,7 +11,7 @@ public class ServiceA_Health_Indicator implements HealthIndicator {
 
 	private final String message_key = "Service A";
 	
-	//  http://localhost:8585/users_credentials/actuator/health
+	  //  http://localhost:8585/users_credentials/actuator/health
     
 	  @Override
 	  public Health health() {
