@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 @Component
 public class Custom_Info_Contributor implements InfoContributor {
 
-	//  http://localhost:8585/users_credentials/actuator/info
+	  //  http://localhost:8585/users_credentials/actuator/info
 
 	  @Autowired
 	  private Environment environment;
@@ -21,7 +21,7 @@ public class Custom_Info_Contributor implements InfoContributor {
 	    builder.withDetail("port", environment.getProperty("local.server.port"));
 	    builder.withDetail("profiles", environment.getDefaultProfiles());
 	    builder.withDetail("customInfo", "This is a custom info message.");
-        builder.withDetail("author", "Sankha Subhra Mondal");
+            builder.withDetail("author", "Sankha Subhra Mondal");
 	  }
 
 }
